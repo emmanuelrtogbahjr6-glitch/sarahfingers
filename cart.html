@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> David Togbah Electronics</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<i class="fa-solid fa-bolt"></i>
+David Togbah Electronics
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="product.html">Product</a></li>
+
+<li>
+
+<a href="cart.html">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+Cart(<span id="cart-count">0</span>)
+
+</a>
+
+</li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="about">
+
+<h2>Your Shopping Cart</h2>
+
+<p>
+
+Review your selected products before placing your order.
+
+</p>
+
+</section>
+
+<section class="cart">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Product</th>
+
+<th>Price (USD)</th>
+
+<th>Quantity</th>
+
+<th>Subtotal</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="cart-items">
+
+</tbody>
+
+</table>
+
+<div class="total">
+
+<h2>Total (USD): <span id="usd-total">$0.00</span></h2>
+
+<h2>Total (LRD): <span id="lrd-total">LRD 0</span></h2>
+
+</div>
+
+<br>
+
+<button class="btn" onclick="checkout()">
+
+Proceed To Checkout
+
+</button>
+
+<button class="btn" onclick="clearCart()">
+
+Clear Cart
+
+</button>
+
+</section>
+
+<footer>
+
+<div class="footer-content">
+
+<div>
+
+<h3>David Togbah Electronic</h3>
+
+<p>Your trusted electronics store.</p>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p><i class="fa-solid fa-phone"></i> 0771718766</p>
+
+<p><i class="fa-brands fa-whatsapp"></i> 0771718766</p>
+
+<p><i class="fa-solid fa-envelope"></i>
+
+emmanuelrtogbahjr6@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 David Togbah Electronic
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
